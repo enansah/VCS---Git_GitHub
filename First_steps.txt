@@ -46,3 +46,19 @@ git commit --amend
 
 Avoid amending commits that has been made public
 
+
+
+//Rollbacks 
+git revert HEAD: used to undo changes in the recent commit 
+git revert <ID>: used to rollback a specific commit using it's 
+ID that shows after you display the log of commits
+
+
+//identifying commits
+Commits are identified using their ids which are the hashed 40 character
+codes known as the SHA1 used to guarentee the consistency of the repositories
+
+
+
+
+
