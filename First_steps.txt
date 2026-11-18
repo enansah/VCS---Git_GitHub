@@ -1,3 +1,14 @@
+Git config command
+The Git config command is used to set the values to identify 
+who made changes to Git repositories. To set the values of user.email 
+and user.name to your email and name, type: 
+
+: ~$ git config  - -global user.email “
+me@example.com
+”
+: ~$ git config  - -global user.name “My name”
+
+
 Git directory and working tree
 
 The git directory contains all the changes and their history 
@@ -8,4 +19,4 @@ using git add to be included in the next commit.
 
 Modified stage awaits staging.
 Staging area is the section awaiting commit.
-Commiting file are snapped into the repository.
+Committed files are snapshots added into the repository.
