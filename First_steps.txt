@@ -20,3 +20,15 @@ using git add to be included in the next commit.
 Modified stage awaits staging.
 Staging area is the section awaiting commit.
 Committed files are snapshots added into the repository.
+
+
+
+Skipping the staging area
+git commit -a -m "commit message"
+
+git diff
+git diff --staged
+git add -p
+Removing files and renaming files in a repository
+git rm <file>
+git mv <old> <new_file>
