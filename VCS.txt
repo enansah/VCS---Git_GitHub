@@ -15,3 +15,17 @@ Benefits of Using Version Control Systems
 Version control systems allow easy rollback to previous stable versions of code.
 They support collaboration by letting multiple people work on the same codebase and track changes 
 effectively.
+
+
+
+Diff Command 
+Shows the difference between files and directories.
+Diff -u shows detailed difference of files
+Wdiff shows change in words of two files
+
+Diff -u old_file new_file > file_change.Diff
+This command creates A file_change file that shows the diffence between files that are being compared 
+by a group.
+
+Patch command
+It is used to apply changes of diff to the new file.
