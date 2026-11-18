@@ -1,0 +1,11 @@
+Git directory and working tree
+
+The git directory contains all the changes and their history 
+and the working tree contains the current versions of the files.
+
+Files start as untracked and must be added to the staging area 
+using git add to be included in the next commit.
+
+Modified stage awaits staging.
+Staging area is the section awaiting commit.
+Commiting file are snapped into the repository.

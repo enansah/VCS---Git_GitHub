@@ -29,3 +29,4 @@ by a group.
 
 Patch command
 It is used to apply changes of diff to the new file.
+patch current_file < file_change.diff
