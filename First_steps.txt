@@ -23,7 +23,7 @@ Committed files are snapshots added into the repository.
 
 
 
-Skipping the staging area
+//Skipping the staging area or add stage 
 git commit -a -m "commit message"
 
 git diff
@@ -32,3 +32,17 @@ git add -p
 Removing files and renaming files in a repository
 git rm <file>
 git mv <old> <new_file>
+
+
+
+//Undoing changes before commiting 
+git checkout: undo unstaged changes
+git reset HEAD <file>: used to undo staged changes 
+git reset -p: to choose the part you want to reset
+git add *: is used to add modified files in the working tree
+
+//amend commit 
+git commit --amend 
+
+Avoid amending commits that has been made public
+
