@@ -44,6 +44,7 @@ git add *: is used to add modified files in the working tree
 //amend commit 
 git commit --amend 
 
+SUitable for changes that has not been pushed yet.
 Avoid amending commits that has been made public
 
 
@@ -74,3 +75,6 @@ git add -p
 Removing files and renaming files in a repository
 git rm <file>
 git mv <old> <new_file>
+
+
+
