@@ -1,0 +1,17 @@
+VCS - Version Control System
+Means keeping historical copoes of files and folders.
+
+Importance of Version Control in IT
+
+IT professionals manage evolving automation scripts and infrastructure configurations that change 
+over time.
+Keeping detailed historical records of changes helps with troubleshooting, documentation, and undoing 
+changes safely.
+
+
+
+Benefits of Using Version Control Systems
+
+Version control systems allow easy rollback to previous stable versions of code.
+They support collaboration by letting multiple people work on the same codebase and track changes 
+effectively.
