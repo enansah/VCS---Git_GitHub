@@ -11,3 +11,7 @@ git merge: is used to my sub-branch to the main branch
 Merging forms 
 1.Fast-forward: commits doesnt diverge but meets up. 
 2.Three-way merge commits diverge before commiting to the main branch.
+
+What's the advantage of Git throwing a merge conflict error in 
+cases of overlap?
+It prevents loss of work if two lines overlap.
