@@ -1,0 +1,13 @@
+//Branch
+A pointer to a particular line of commit 
+
+The default branch is the master branch
+New branches are the features that are later 
+merged into a master branch 
+
+//Merging
+git merge: is used to my sub-branch to the main branch 
+
+Merging forms 
+1.Fast-forward: commits doesnt diverge but meets up. 
+2.Three-way merge commits diverge before commiting to the main branch.
