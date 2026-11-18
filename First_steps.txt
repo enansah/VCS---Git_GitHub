@@ -62,3 +62,15 @@ codes known as the SHA1 used to guarentee the consistency of the repositories
 
 
 
+
+
+
+Skipping the staging area
+git commit -a -m "commit message"
+
+git diff
+git diff --staged
+git add -p
+Removing files and renaming files in a repository
+git rm <file>
+git mv <old> <new_file>
